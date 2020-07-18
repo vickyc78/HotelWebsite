@@ -94,6 +94,8 @@ html,body {
   line-height: 1.7em;
   font-size: 20px;
 }
+
+/**section-info**/
 #section-info {
   height: 400px;
 }
@@ -153,4 +155,80 @@ background: #f7c08a;
 .bg-primary {
   background: #f7c08a;
   color: #333;
+}
+.bg-trial{
+  background-color: black;
+  color: white;
+}
+
+/**ABOUT**/
+
+#aboutpage .leftsection{
+ float: left;
+ width: 50%;
+ min-height: 100%;
+}
+#aboutpage .rightsection{
+  float: right;
+ width: 50%;
+ min-height: 100%;
+}
+#aboutpage .rightsection img{
+  border-radius: 50%;
+  display: block;
+  margin-top: 20px;
+  width: 70%;
+}
+#aboutpage .leftsection h1{
+  font-size: 40px;
+  margin-top: 20px;
+}
+#testimonials{
+  background: url(/img/test-bg.jpg);
+  height: 600px;
+  margin-top: 50px;
+}
+#testimonials .testimonial img{
+  width: 100px;
+  float: left;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+#testimonials .testimonial{
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  opacity: 0.9;
+}
+#testimonials h2{
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+
+}
+
+#contact-form label{
+  display: block;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+#contact-form input, 
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px #ddd solid;
+}
+#contact-form .form-group {
+  margin-bottom: 20px;
+}
+#main-info{
+  height: 200px;
+}
+#main-info input:focus, 
+#main-info textarea:focus {
+  outline: none;
+  border-color: #f7c08a;
 }

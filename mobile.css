@@ -14,6 +14,9 @@
     border-bottom: gray dotted 1px;
   }
   /**section-info**/
+  #section-info {
+    height: 510px;
+  }
   #section-info .section-img{
     display: none
   }
@@ -50,7 +53,7 @@ text-align: center;
     margin:50px
 }
 #testimonials{
-    height: 850px;
+    height: 910px;
 }
 #aboutpage .rightsection img{
     margin-top: 10px
@@ -64,6 +67,3 @@ text-align: center;
     height: 550px;
   }
 
-#contact-form .btn1{
-    margin-left: 50%;
-  }
